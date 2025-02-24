@@ -121,9 +121,9 @@ void printTree(TreeNodePtr root, int space) {
   //rintf("\n");
 
    for (int i = 3;i < space; i++) {
-       printf(" ");
+   printf(" ");
    }
-   printf("%d\n", root->data);
+   printf("%3d\n", root->data);
 
    printTree(root->leftPtr, space);
 }
