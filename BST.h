@@ -114,13 +114,13 @@ void postOrder(TreeNodePtr treePtr)
 void printTree(TreeNodePtr root, int space) {
    if (root == NULL) return;
 
-   space += 5;  
+   space += 3;
 
    printTree(root->rightPtr, space);
 
    printf("\n");
 
-   for (int i = 5; i < space; i++) {
+   for (int i = 3;i < space; i++) {
        printf(" ");
    }
    printf("%d\n", root->data);
