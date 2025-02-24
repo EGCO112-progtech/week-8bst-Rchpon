@@ -118,7 +118,7 @@ void printTree(TreeNodePtr root, int space) {
 
    printTree(root->rightPtr, space);
 
-   printf("\n");
+  //rintf("\n");
 
    for (int i = 3;i < space; i++) {
        printf(" ");
